@@ -2,7 +2,8 @@
 A 3D plotter for paths including orientation based on VTK
 
 You need to have VTK installed: then cmake .    build
-Run the program and give an intput file
+
+Run the program giving next to the executable an intput file
 
 The input file should have the format:
 t x y z q1 q2 q3 q4   where q stands for the quaternion describing the orientation, q1 the scalar part of the quaternion
